@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sowju ❤️‍🔥</title>
+  <style>
+    body {
+      margin: 0;
+      background: pink;
+      font-family: 'Segoe UI', sans-serif;
+      overflow-x: hidden;
+      animation: fadeIn 2s ease-in;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      color: white;
+      background: linear-gradient(90deg, #ff5fa2, #ffc1e3);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    p {
+      font-size: 1.2rem;
+      color: white;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sowjanya (Sowju ❤️‍🔥)</h1>
+    <p>Beautiful girl I have never seen</p>
+  </header>
+
+  <div class="gallery">
+    <img src="images/1.jpg" alt="Sowju 1">
+    <img src="images/2.jpg" alt="Sowju 2">
+    <img src="images/3.jpg" alt="Sowju 3">
+    <img src="images/4.jpg" alt="Sowju 4">
+    <img src="images/5.jpg" alt="Sowju 5">
+    <img src="images/6.jpg" alt="Sowju 6">
+    <img src="images/7.jpg" alt="Sowju 7">
+  </div>
+
+  <audio autoplay loop>
+    <source src="paro.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
